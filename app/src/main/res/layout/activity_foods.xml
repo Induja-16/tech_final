@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="#cbece6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rel"
+        android:layout_height="170dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/food"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/foods_rec"
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
